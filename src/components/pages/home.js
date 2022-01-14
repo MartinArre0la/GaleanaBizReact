@@ -1,7 +1,7 @@
 import React from "react";
 
 // CSS
-import "./styles/home.css";
+import "../styles/home.css";
 
 // JS
 import BusinessCard from "../businessCards/businessCards";
@@ -13,10 +13,7 @@ export default function home() {
       <BusinessCard />
       <BusinessCard />
       <BusinessCard />
-      <BusinessCard />
-      <BusinessCard />
-      <BusinessCard />
-      <BusinessCard />
+
     </div>
   );
 }

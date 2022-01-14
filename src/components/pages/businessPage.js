@@ -1,11 +1,20 @@
 import React from "react";
-import "./styles/businessPage.css";
+import "../styles/businessPage.css";
+import  CardOne from "../brandonsCards/CardOne.js";
 
 export default function stores() {
   return (
     <div className="businessPageContainer">
-      <div className="title">Wallmart</div>
-      <div className="theirPage"></div>
+      <div className="brandon-cards">
+         < CardOne/>
+         < CardOne/>
+         < CardOne/>
+       
+      </div>
+     
+        
+     
+     
     </div>
   );
 }
